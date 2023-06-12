@@ -32,7 +32,7 @@ public class WeatherService {
             reader.close();
             return response.toString();
         } else {
-            throw new IOException("Error: " + responseCode);
+            throw new IOException("Error: Could not find that city " + responseCode);
         }
     }
     public String getTemperatureByCity(String jsonCity) { //Stoppar in String från ovan metod

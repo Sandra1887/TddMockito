@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d3ce74-748b-4e28-a8bb-ea0dce21d816" name="Changes" comment="Tests on spot">
+    <list default="true" id="f1d3ce74-748b-4e28-a8bb-ea0dce21d816" name="Changes" comment="ReadMe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherApiKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeatherKeyReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeatherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherServiceAllInfoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeatherServiceAllInfoTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherServiceDescriptionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeatherServiceDescriptionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WeatherServiceNameTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeatherServiceNameTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherServiceTempTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeatherServiceTempTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherServiceWeatherCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeatherServiceCodeTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.16601562",
     "project.structure.side.proportion": "0.2"
   }
@@ -75,11 +70,18 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1686475060341</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="ReadMe">
+      <created>1686556836181</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1686556836182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tests on spot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests on spot" />
+    <MESSAGE value="ReadMe" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReadMe" />
   </component>
 </project>

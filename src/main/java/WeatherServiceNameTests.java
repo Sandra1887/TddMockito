@@ -29,4 +29,13 @@ public class WeatherServiceNameTests {
         //Assert
         assertEquals(expected, actual);
     }
+    @Test
+    public void testGetWeatherByCityFail() throws IOException {
+        //Arrange
+        String expected = "Temperature: 10\nWeather Description: rainy";
+        //Act
+        String actual = weatherServiceMock.getWeatherByCity("Hittepåstad");
+        //Assert
+        assertEquals(expected, actual);
+    }
 }

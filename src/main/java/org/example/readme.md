@@ -21,26 +21,27 @@ by Sandra Jeppsson Kristansson w.23 - 2023
 
 
 + WeatherServiceNameTests
-  + testGetWeatherByCity() - AssertEquals
+  + testGetWeatherByCity() - assertEqual
+  + testGetWeatherByCityFail() - assertEqual
 
 
 + WeatherServiceTempTests
-  + testGetTemperatureNotNull() - AssertNotNull
-  + testGetTemperatureNull() - AssertNull
+  + testGetTemperatureNotNull() - assertNotNull
+  + testGetTemperatureNull() - assertNull
 
 
 + WeatherServiceDescriptionTests
-  + testGetWeatherDescription() - AssertEquals
+  + testGetWeatherDescription() - assertEqual
 
 
 + WeatherServiceAllInfoTests
-  + testGetCityTempDescription() - AssertEquals
+  + testGetCityTempDescription() - assertEqual
 
 
 + WeatherServiceCodeTests
-  + testGetWeatherByWeatherCode() - AssertEquals
-  + testGetWeatherByWeatherCodeSame() - AssertSame
-  + testGetWeatherByWeatherCodeBoolean() - AssertTrue & AssertFalse
+  + testGetWeatherByWeatherCode() - assertEqual
+  + testGetWeatherByWeatherCodeSame() - assertSame
+  + testGetWeatherByWeatherCodeBoolean() - assertTrue & assertFalse
 
 
 ***JAVA***
