@@ -35,7 +35,7 @@ public class WeatherService {
             throw new IOException("Error: Could not find that city " + responseCode);
         }
     }
-    public String getTemperatureByCity(String jsonCity) { //Stoppar in String från ovan metod
+    public String getTemperatureByCity(String jsonCity) {
         try {
             JSONObject jsonString = new JSONObject(jsonCity);
             int temperature = jsonString.getInt("temperature");
