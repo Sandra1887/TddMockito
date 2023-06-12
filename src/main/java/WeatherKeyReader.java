@@ -1,14 +1,14 @@
 import java.io.FileInputStream;
 import java.util.Properties;
 
-public class WeatherApiKey {
+public class WeatherKeyReader {
     Properties prop;
 
-    public WeatherApiKey(String file) {
+    public WeatherKeyReader(String fileName) {
         prop = new Properties();
         String userHome = System.getProperty("user.home");
         try {
-            FileInputStream input = new FileInputStream(userHome + "/Documents/API-keys/" + file + ".txt");
+            FileInputStream input = new FileInputStream(userHome + "/Documents/API-keys/" + fileName + ".txt");
             prop.load(input);
         } catch (Exception e){
             System.out.println(e.getMessage());

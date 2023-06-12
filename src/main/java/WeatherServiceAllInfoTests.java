@@ -17,6 +17,11 @@ public class WeatherServiceAllInfoTests {
         when(weatherServiceMock.getCityTempDescription("Gothenburg")).thenReturn(
                 "City: Gothenburg\nTemperature: 10\nWeather Description: rainy");
     }
+
+    /**
+     * Test that "getCityTempDescription" returns all the expected information - in this case: name of
+     * the city, the temperature and the weather description.
+     */
     @Test
     public void testGetCityTempDescription() {
         //Arrange

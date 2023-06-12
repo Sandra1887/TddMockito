@@ -1,5 +1,4 @@
 import org.json.JSONObject;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,9 +6,12 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 
+/**
+ * This class contains the different methods and is a bit more developed due to personallu be able to
+ * visualise the tests.
+ */
 public class WeatherService {
-    //Anropar API och returnerar prognos för specifik plats (JSON-fil)
-    WeatherApiKey wAK;
+    WeatherKeyReader wAK;
 
     public String getWeatherByCity(String city) throws IOException {
         String encodedQuery = URLEncoder.encode(city, "UTF-8");
@@ -66,7 +68,7 @@ public class WeatherService {
         return null;
     }
     public String getWeatherByWeatherCode(String weatherCode) throws IOException {
-        //Endast en exempelkod (Fungerar ej!)
+        //Exempelkod endast
         String encodedQuery = URLEncoder.encode(weatherCode, "UTF-8");
         String apiUrl = "https://api.weatherstack.com/current?access_key=" + wAK.getApiKey() + "&query=" +
                 encodedQuery;

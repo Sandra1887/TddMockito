@@ -2,7 +2,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import java.io.IOException;
-
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
@@ -16,6 +15,10 @@ public class WeatherServiceTempTests {
         when(weatherServiceMock.getTemperatureByCity("Gothenburg")).thenReturn("Temperature: 10");
     }
 
+    /**
+     * Asserts that neither "expectedTemperature" nor "actual" is Not Null.
+     * @throws IOException
+     */
     @Test
     public void testGetTemperatureNotNull() throws IOException {
         //Arrange
@@ -25,6 +28,11 @@ public class WeatherServiceTempTests {
         //Assert
         assertNotNull(expectedTemperature, actual);
     }
+
+    /**
+     * Just to test "assertNull" - where "expectedTemperature" is set as null.
+     * @throws IOException
+     */
     @Test
     public void testGetTemperatureNull() throws IOException {
         //Arrange
