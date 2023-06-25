@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d3ce74-748b-4e28-a8bb-ea0dce21d816" name="Changes" comment="Documentation.md updated">
+    <list default="true" id="f1d3ce74-748b-4e28-a8bb-ea0dce21d816" name="Changes" comment="Moved to right map">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherServiceAllInfoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WeatherServiceAllInfoTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherServiceCodeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WeatherServiceCodeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherServiceDescriptionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WeatherServiceDescriptionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherServiceNameTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WeatherServiceNameTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherServiceTempTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WeatherServiceTempTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +53,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,7 +97,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1686902861104</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Moved to right map">
+      <created>1686905791962</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1686905791962</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -104,6 +111,7 @@
     <MESSAGE value="ReadMe" />
     <MESSAGE value="Error Message" />
     <MESSAGE value="Documentation.md updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentation.md updated" />
+    <MESSAGE value="Moved to right map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved to right map" />
   </component>
 </project>
